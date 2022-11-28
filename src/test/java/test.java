@@ -40,7 +40,7 @@ public class test {
         Assert.assertFalse(checkboxOne.isSelected());
         Assert.assertTrue(checkboxTwo.isSelected());
 
-        Thread.sleep(5000);
+        Thread.sleep(2000);
 
         checkboxOne.click();
         checkboxTwo.click();
@@ -48,6 +48,6 @@ public class test {
         Assert.assertTrue(checkboxOne.isSelected());
         Assert.assertFalse(checkboxTwo.isSelected());
 
-        Thread.sleep(5000);
+        Thread.sleep(3000);
     }
 }
